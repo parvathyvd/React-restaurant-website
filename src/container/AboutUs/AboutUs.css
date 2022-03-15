@@ -1,0 +1,77 @@
+.app__about-us{
+    /* background-image: url('../../assets/G.png'), linear-gradient(to bottom, black, black); */
+    /* background-size: cover;
+    background-position: no-repeat; */
+    background-color: black;
+    display: flex;
+    position: relative;
+    padding: 8rem 3rem;
+    overflow: hidden;
+
+}
+
+.bg-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+.img-g{
+    height: 415px;
+    z-index: 0;
+}
+.app__about-us--history, .app__about-us--content, .app__about-us--knife{
+    z-index: 1;
+}
+.app__about-us--content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 1rem 3rem;
+    text-align: right;
+}
+.app__about-us--history{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1rem 3rem;
+    text-align: left;
+}
+.app__about-us--content > *, .app__about-us--history > *{
+    padding: 1rem 0;
+}
+.app__about-us--knife img{
+    display: flex;
+    height: 100%;
+    justify-self: center;
+    transform: translate(30px, 0px);
+}
+
+
+@media screen and (max-width:800px) {
+    .app__about-us{
+        flex-direction: column;
+        margin: 0;
+        padding: 2rem 0;
+        position: relative;
+    }
+    .app__about-us--knife{
+        margin: 0 auto;
+        display: flex;
+        transform: translate(-30px, 0);
+
+    }
+    .img-knife{
+        /* position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        width: 100%;
+        text-align: center; */
+        width: 40%;
+    }
+}
+

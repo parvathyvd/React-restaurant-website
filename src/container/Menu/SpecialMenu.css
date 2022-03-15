@@ -1,0 +1,44 @@
+.app__special__menu{
+    display: flex;
+    background-color: var(--color-black);
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.app__special__menu__wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.app__special__menu__wrapper h3{
+    color: var(--color-golden);
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+.wine-list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.wine-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.title{
+    flex: 1;
+    padding-right: 4rem;
+}
+.line{
+    background-color: var(--color-golden);
+    width: 100%;
+    height: 1px;
+}
+.price{
+    padding-left: 3rem;
+}
+.wine-tags{
+    margin-right: auto;
+}
