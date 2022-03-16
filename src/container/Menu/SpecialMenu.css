@@ -5,40 +5,65 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .app__special__menu__wrapper{
     display: flex;
     flex-direction: row;
 }
-
-.app__special__menu__wrapper h3{
-    color: var(--color-golden);
-    font-size: 2rem;
-    padding: 2rem 0;
+.app__special__menu-img{
+    width: 410px;
+    margin: 0 2rem;
 }
-.wine-list{
+.app__special__menu-img img{
+    width: 100%;
+}
+.app__special__menu__wrapper h3{
+    color: #fff;
+    font-size: 3.5rem;
+    padding: 2rem 0;
+    font-family: var(--font-base);
+}
+.app__special__menu__wine-list{
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
     flex-direction: column;
+    margin-bottom: 2rem;
 }
 .wine-details{
     display: flex;
-    flex-direction: row;
-    align-items: center;
 }
-.title{
-    flex: 1;
-    padding-right: 4rem;
+
+.line-price{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
 }
 .line{
     background-color: var(--color-golden);
-    width: 100%;
+    width: 90px;
     height: 1px;
+    margin: 0 1rem;
 }
-.price{
-    padding-left: 3rem;
+.app__special__menu__wrapper{
+    padding: 1rem 2rem;
 }
-.wine-tags{
-    margin-right: auto;
+
+@media screen and (max-width: 1000px) {
+    .app__special__menu{
+        padding: 3rem 0;
+    }
+    .app__special__menu__wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .app__special__menu__wrapper{
+        padding: 1rem 3rem;
+        width: 100%;
+    }
+    .app__special__menu__wine-list{
+        width: 100%;
+    }
+    .app__special__menu-img {
+        margin: 0 auto;
+    }
 }

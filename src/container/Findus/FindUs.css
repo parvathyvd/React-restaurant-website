@@ -1,0 +1,43 @@
+.app__findus{
+    background-color: var(--color-black);
+    padding: 3rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app__findus-img{
+    width: 600px;
+}
+
+.app__findus-img img{
+    width: 100%;
+}
+.app__findus-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 3rem;
+}
+.app__findus-info button{
+    margin-right: auto;
+    margin-top: 2rem;
+}
+.pb-2{
+    padding-bottom: 2rem;
+}
+.pb-1{
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+    .app__findus{
+        flex-direction: column;
+    }
+    .app__findus-img{
+        max-width: 400px;
+    }
+    .app__findus-img img{
+        padding: 3rem;
+    }
+}

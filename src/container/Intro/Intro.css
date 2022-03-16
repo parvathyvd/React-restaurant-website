@@ -1,0 +1,41 @@
+.app__intro{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.app__intro video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.app__intro-overlay{
+    position: absolute;
+    /* top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; */
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+.app__intro-button{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    height: 8rem;
+    width: 8rem;
+    color:#fff;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.play, .pause{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 4rem;
+    width: 4rem;
+}

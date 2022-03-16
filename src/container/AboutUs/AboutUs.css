@@ -64,6 +64,12 @@
         transform: translate(-30px, 0);
 
     }
+    .app__about-us--content{
+        padding: 1rem 2rem;
+    }
+    .app__about-us--history{
+        padding: 1rem 2rem;
+    }
     .img-knife{
         /* position: absolute;
         top: 0;

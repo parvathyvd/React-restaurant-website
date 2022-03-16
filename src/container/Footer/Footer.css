@@ -1,0 +1,120 @@
+.app__footer{
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 8rem 0;
+    color: #fff;
+}
+.app__subscribe-box h1{
+    color: var(--color-golden);
+    font-family: var(--font-base);
+    font-size: 4rem;
+    padding-bottom: 1rem;
+}
+
+.app__subscribe-box{
+    padding: 3rem 10rem;
+    border: 1px solid var(--color-golden);
+}
+.subscribe-info{
+    display: flex;
+}
+.app__subscribe-box input{
+    padding: 0.8rem 2rem ;
+    flex: 1;
+    background-color: black;
+    outline: none;
+    border: 1px solid var(--color-golden);
+    margin-right: 2rem;
+}
+input::placeholder{
+    text-align: left;
+    font-family: var(--font-base);
+    font-size: 1.5rem;
+    align-self: flex-start;
+}
+.p__opensans.sub-title{
+    padding-bottom: 2rem;
+}
+.app__contact{
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-desc-wrapper{
+    width: 300px;
+}
+img.footer-logo{
+    max-width: 200px;
+    margin-bottom: 1rem;
+}
+.app__main{
+    padding: 0 5rem
+}
+.app__footer-headtext{
+    color: var(--color-white);
+    font-family: var(--font-base);
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: .04em;
+    line-height: 41.6px;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+.p__opensans.small{
+    font-size: 0.8rem;
+    line-height: 1rem;    
+    margin: 1rem 0;
+
+}
+.copyright p{
+    font-size: 0.8rem;
+    padding-top: 3rem;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+
+.app__working p:nth-child(2n+1){
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .app__subscribe-box{
+        padding: 3rem 0rem;
+        border: 1px solid var(--color-golden);
+    }
+    .app__contact{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .logo-desc-wrapper{
+        width: auto;
+    }
+    img.footer-logo{
+        max-width: auto;
+    }  
+    .app__contact{
+        padding: 5rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }   
+    .contact-us--info, .app__main{
+        margin-bottom: 3rem;
+    }
+
+    .app__subscribe-box{
+        margin: 3rem 2rem;
+        padding: 1rem 2rem;
+        border: 1px solid var(--color-golden);
+    }
+}
