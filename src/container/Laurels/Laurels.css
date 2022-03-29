@@ -75,7 +75,7 @@ h2.main-heading{
         grid-gap: 1rem;
      }
      .app__laurels--img img{
-        height: 90%;
+        max-height: 90%;
     }
 }
 
@@ -100,7 +100,7 @@ h2.main-heading{
     padding: 8rem 0 0 0;
 }
 .app__laurels--img img{
-    height: 80%;
+    max-height: 46%;
 }
 }
 @media screen and (min-width : 2000px) {
