@@ -23,10 +23,11 @@ const Navbar = () => {
       <a href="#login" className='p__opensans login'>Login/ Register</a>
       <a href="/" className='p__opensans book'>Book a Table</a>
     </div>
-    <div className="app__navbar-small-screen">
-      {menuDisplay &&
+    {menuDisplay &&
       <GiHamburgerMenu className='hamburger' fontSize={27} onClick={()=>{setMenuDisplay(!menuDisplay)}}/>
       }
+    <div className="app__navbar-small-screen">
+      <div className="mobile__nav">
       {!menuDisplay && (<><MdOutlineRestaurantMenu className='navbar-overlay' fontSize={27}  onClick={()=>setMenuDisplay(!menuDisplay)}/>
       <ul className="app__navbar-links-small-screen">
         <li className='p__opensans'><a href="#home">Home</a></li>
@@ -35,6 +36,7 @@ const Navbar = () => {
         <li className='p__opensans'><a href="#awards">Awards</a></li>
         <li className='p__opensans'><a href="#contact">Contact</a></li>
     </ul></> )}
+      </div>
     </div>
   </nav>
     )}
