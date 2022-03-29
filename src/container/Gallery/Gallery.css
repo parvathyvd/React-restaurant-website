@@ -92,3 +92,9 @@
         min-width: 300px;
     }
 }
+@media screen and (max-width: 768px) {
+    .app__gallery{
+        flex-direction: column;
+        transform: translateY(-300px);
+        }
+}
