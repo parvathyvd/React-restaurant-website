@@ -1,0 +1,9 @@
+
+@media screen and(max-width: 768px) {
+    .app__special__menu-img{
+        width: auto;
+    }
+    .app__special__menu-img img{
+        width: 70%;
+    }
+}

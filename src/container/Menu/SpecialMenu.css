@@ -12,7 +12,7 @@
     flex-direction: row;
 }
 .app__special__menu-img{
-    width: 410px;
+    max-width: 410px;
     margin: 0 2rem;
 }
 .app__special__menu-img img{
@@ -65,5 +65,13 @@
     }
     .app__special__menu-img {
         margin: 0 auto;
+    }
+}
+
+@media screen and(max-width: 768px) {
+    .app__special__menu-img{
+    }
+    .app__special__menu-img img{
+        width: 300px;
     }
 }
